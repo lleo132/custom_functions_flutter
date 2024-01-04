@@ -53,6 +53,7 @@ Future importFromCsvOrJson(
 
         await collectionRef.add({
           fieldName1: row['Email'],
+          'docRef': docuRef
         });
       }
     } else {
